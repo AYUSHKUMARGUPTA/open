@@ -117,8 +117,13 @@
               "devServerTarget": "open-D:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "open-D"
 }
